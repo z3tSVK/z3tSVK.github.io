@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#6d0019">
+        <meta name="msapplication-navbutton-color" content="#6d0019">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#6d0019">
+        <meta name="description" content="Montáž a servis kamerových systémov. IP Kamery, HD-TVI Kamery. CCTV.">
+        <title>Kamerové systémy | PEGU</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="shortcut icon" href="img/logo.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+            <!--Hamburger menu-->
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } else {
+                    x.className = "topnav";
+                    }
+                }
+            </script>
+
+    </head>
+
+    <body>
+
+        <header id="header">
+
+        <nav class="topnav" id="myTopnav">
+
+
+            <a href="index.html" class="active" id="link-obsah"><img src="img/logo.png" id="logo"></a>
+
+            <ul id="zoznam">
+                <a href="index.html"><li>Domov</li></a>
+                <a href="o_firme.html"><li>O firme</li></a>
+                <a href="kontakt.html"><li>Kontakt</li></a>
+            </ul>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars fa-2x"></i></a>
+
+        </nav>
+        </header> 
+
+        <main id="o_firme">
+
+            <div id="o_firme_container">
+                <h1>Kamerové systémy</h1>
+                <p>Špecializujeme sa na montáž a servis <strong>IP</strong> a <strong>HD-TVI</strong> kamier značky Hikvision.</p>
+                <h3>HD-TVI Kamery</h3>
+                    <p>Pri HD-TVI kamerách je možné využiť prenos pomocou koaxiálneho káblu. To umožňuje jednoduchú výmenu kamier v už existujúcom systéme s ponechaním pôvodnej kabeláže.</p>
+                    <h3>IP kamery</h3>
+                    <p>Najvyššia možná kvalita. Vyššia cena.</p>
+                <h2>Súčasti kamerového systému</h2>
+                <h3>Kamera</h3>
+                    <p>Samotná kamera slúži na zaznamenávanie obrazu, prípadne aj zvuku. Najvia používané sú dva druhy prevedenia. <strong>Tubusové</strong> a <strong>Dome</strong> kamery.</p>
+                    <div id="kamery-img">
+                        <div class="kamery-img">
+                            <img src="img/dome.jpg" class="kamera-img" alt="Dome kamera">
+                            <p class="overlay2">Dome kamera</p>
+                        </div>
+                        <div class="kamery-img">
+                            <img src="img/tubus.jpg"  class="kamera-img" alt="Tubusová kamera">
+                            <p class="overlay2">Tubusová kamera</p>
+                        </div>
+                    </div>
+                <h3>Záznamník</h3>
+                    <p>Obraz z jednotlivých kamier je prenášaný do záznamníku prostredníctvom káblu, alebo pomocou bezdrátového prenosu. V záznamníku je umiestnených pevný disk, na ktorom sa zachováva záznam obrazu z kamier.</p>
+                    <p>Záznamník je pripojený na internet a umožňuje pozeranie živého prenosu alebo nahraného záznamu na diaľku prostredníctvom aplikácie v počítači, alebo smartphone.</p>
+                    <p>Počet kamier, ktoý je možné zapojiť do jedného záznamníku závisí od konkrétneho modelu. Najčastejšie používané sú záznamníky pre 4 - 16 kamier.</p>
+                    <div id="zaznamnik-img">
+                            <img src="img/zaznamnik.jpg" class="kamera-img" alt="Záznamník">
+                            <p class="overlay2">Záznamník</p>
+                    </div>
+            </div>
+        </main>
+
+    <footer id="footer">Copyright &copy; 2019 Peter Gutta</footer>
+    
+    </body>
+</html>
