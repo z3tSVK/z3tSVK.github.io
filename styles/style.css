@@ -1,3 +1,4 @@
+
 body {
     background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 18%, rgba(0,0,0,0.33) 58%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 18%,rgba(0,0,0,0.33) 58%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -6,6 +7,13 @@ body {
     background-repeat: no-repeat;
     margin: 0 0;
     font-family: Merriweather;
+    color: rgb(68, 68, 68);
+}
+
+h1,
+h2,
+h3 {
+    color: black;
 }
 
 #header {
@@ -156,6 +164,7 @@ letter-spacing: 2px;
     width: 95%;
     align-self: center;
     margin-bottom: 20px; 
+    margin-top: 20px;
 }
 
 #kontakt ul li {
@@ -184,6 +193,11 @@ letter-spacing: 2px;
 .kamera-img {
     height: auto;
     width: 100%;
+}
+
+#mail {
+    font-size: 1.3em;
+    color: rgb(68, 68, 68);
 }
 
 .kamery-img,
@@ -270,6 +284,7 @@ letter-spacing: 2px;
 
     .overlay {
         opacity: 0;
+        font-size: 0.8em;
     }
 
     .box:hover .overlay {
@@ -339,7 +354,13 @@ letter-spacing: 2px;
 }
 
   }
-  @media (min-width: 900px) {
+
+  @media (min-width: 1200px) {
+    .overlay {
+        font-size: 1.5em;
+    }
+
+  @media (min-width: 1550px) {
       
     .topnav ul a li {
         font-size: 1.5em;
