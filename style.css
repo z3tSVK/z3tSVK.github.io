@@ -20,6 +20,7 @@ body {
     align-items: center;
     margin: auto 0;
     height: 100vh;
+    font-family: Merriweather;
 }
 
 #obsah {
@@ -94,6 +95,7 @@ p {
 
 #zoznam {
     padding-left: 0;
+    font-size: 1.5em;
 }
 
 .nav-item li {
@@ -198,6 +200,7 @@ p {
         margin: 0;
         letter-spacing: 2px;
         font-size: 1.7em;
+        font-family: Merriweather;
     }
 
     #menu-domov {
@@ -338,7 +341,7 @@ p {
    #footer {    
     width: 90%;
    }
-
+}
 
 @media (min-width: 1450px) {
     #obsah {
@@ -364,5 +367,3 @@ p {
        font-size: 2em;
    }
 }
-
-
