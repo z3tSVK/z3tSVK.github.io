@@ -73,6 +73,7 @@ p {
 #link-obsah {
     width: 80%;
     margin-top: 20px;
+    text-align: center;
 }
 
 #logo {
@@ -81,8 +82,7 @@ p {
 }
 
 #nav {
-    margin-top: 10px;
-    height: 100%;
+    margin-top: 0;
 } 
 
 #nav ul a {
@@ -97,6 +97,7 @@ p {
 #zoznam {
     padding-left: 0;
     font-size: 1.5em;
+    margin-top: 10px;
 }
 
 .nav-item li {
