@@ -73,13 +73,11 @@ p {
 #link-obsah {
     width: 80%;
     margin-top: 20px;
-    display: flex;
 }
 
 #logo {
     width:80%;
     height: auto;
-    margin: 0 auto;
 }
 
 #nav {
