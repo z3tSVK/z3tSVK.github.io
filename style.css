@@ -6,7 +6,7 @@ body {
             background-repeat: no-repeat;
     font-family: Montserrat;
     margin: 0 0;
-    font-size:1em;
+    font-size:1rem;
 }
 
 #header {
@@ -63,7 +63,7 @@ section {
 }
 
 p {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5rem;
 }
 
 #obsah p {
@@ -72,12 +72,12 @@ p {
 
 #link-obsah {
     width: 80%;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
 #logo {
-    width:80%;
+    width:100%;
     height: auto;
 }
 
@@ -91,12 +91,12 @@ p {
 
 .nav-item {
     padding: 10px;
-    margin: 5px;
+    margin: 0px;
 }
 
 #zoznam {
     padding-left: 0;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
@@ -119,7 +119,7 @@ p {
 @media (orientation: landscape) {
 
     body {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     #header {
@@ -127,7 +127,6 @@ p {
     }
 
     #link-obsah {
-        margin-top: 15px;
         align-self: flex-start;
     }
 
@@ -161,11 +160,11 @@ p {
 @media (min-width: 768px) {
     
     body {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     
     .active li{
-       color: grey;
+       color: #a1dbff;
     }
 
     #obsah {
@@ -201,7 +200,7 @@ p {
         text-align: center;
         margin: 0;
         letter-spacing: 2px;
-        font-size: 1.7em;
+        font-size: 1.7rem;
         font-family: Merriweather;
     }
 
@@ -240,7 +239,7 @@ p {
     #zoznam {
         display: flex;
         margin: 0;
-        font-size: 1.4em;
+        font-size: 1.5rem;
     }
 
     .nav-item li {
@@ -278,11 +277,11 @@ p {
     }
 
     #link-obsah {
-        margin-top: 0;
+        margin: 10px;
     }
     #logo{
-        padding: 10px;
-        margin-left: 1em;
+        padding: 0;
+        margin: 0;
     }
 
     .nav-item {
@@ -290,14 +289,14 @@ p {
     }
 
     #nav {
-        font-size: 1.3em;
-        margin-right: 1em;
+        font-size: 1.3rem;
+        margin-right: 1rem;
         margin-top: 0;
     }
 
    .overlay {
        opacity: 0;
-       font-size: 1.2em;
+       font-size: 1.2rem;
    }
 
    .box:hover .overlay {
@@ -363,7 +362,7 @@ p {
     }
 
     #nav {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
    .overlay {
        font-size: 2em;

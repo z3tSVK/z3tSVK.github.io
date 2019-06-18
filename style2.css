@@ -1,0 +1,267 @@
+body {
+            background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 18%, rgba(0,0,0,0.33) 58%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+            background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 18%,rgba(0,0,0,0.33) 58%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 18%,rgba(0,0,0,0.33) 58%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            background-repeat: no-repeat;
+    font-family: Montserrat;
+    margin: 0 0;
+    font-size:1rem;
+}
+
+#header {
+        background: #a90329; /* Old browsers */
+        background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+#obsah {
+        background: #f0f9ff; /* Old browsers */
+        background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+        background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+                
+}
+
+#footer {
+        background: #a90329; /* Old browsers */
+        background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    text-align: center;
+}
+
+#map {
+    height: 300px;  /* The height is 400 pixels */
+    width: 80%;  /* The width is the width of the web page */
+    align-self: center;
+    margin-bottom: 20px; 
+   }
+
+   #zoznam {
+    margin: 0;
+}
+
+#logo-top {
+    height: 50px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.topnav ul {
+    display: none;
+    font-size: 1.5rem;
+    font-family: Merriweather;
+}
+
+.nazov {
+    font-weight: bold;
+}
+
+#box-kamery {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#box1 {
+    width: 80%;
+    margin: 0 auto;
+}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: white;
+    height: 100%;
+    margin: 21px 15px;
+  }
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive #logo-top {
+    margin-bottom: 0;
+  }
+
+  .topnav.responsive ul {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .topnav ul a {
+      color: white;
+      text-decoration: none;
+      list-style: none;
+  }
+
+  .topnav ul  {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-left:10px;
+}
+
+  .topnav ul a li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.active li{
+    color: #a1dbff;
+ }
+
+@media (min-width: 768px) {
+
+        body {
+            font-size: 1.2rem;
+        }
+        #myTopnav {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            margin: 0 auto;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        #header {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        #obsah {
+            border-radius: 10px;
+        }
+        
+        #header,
+        #obsah,
+        #footer {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        #logo-top {
+            height: auto;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #link-obsah {
+            width: 20%;
+            align-self: center;
+            margin-top: 15px;
+        }
+
+        .topnav ul {
+            display: flex;
+            padding-left: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            margin-left: 0;
+            padding-left: 0;
+
+        }
+
+        .topnav ul a li {
+            padding: 0;
+        }
+
+        #zoznam,
+        #zoznam a {
+            margin: 0;
+        }
+
+        #zoznam {
+            margin-right: 0px;
+        }
+        #zoznam a:hover {
+            transform: scale(1.1);
+        }
+
+        .topnav ul a {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .topnav.responsive .icon {
+            display: none;
+        }
+         .topnav a.icon {
+             float: none;
+             display: none;
+         }
+
+         #footer {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+}
+
+
+@media (min-width: 1024px) {
+#header,
+#obsah,
+#footer {    
+ width: 90%;
+}
+#zoznam {
+    margin-right: 1rem;
+}
+#myTopnav {
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#myTopnav ul li {
+    letter-spacing: 1px; 
+}
+
+#link-obsah {
+    width: 10%;
+    margin: 10px;
+}
+
+#obsah {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#box1 {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#map {
+    flex: 2;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 400px;
+}
+
+}
+
+@media (min-width: 1450px) {
+    
+
+   
+}
