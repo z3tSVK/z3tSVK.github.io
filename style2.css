@@ -25,8 +25,6 @@ body {
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
         background-repeat: no-repeat;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
                 
 }
 
@@ -48,6 +46,35 @@ body {
 
    #zoznam {
     margin: 0;
+} 
+
+.container {
+    padding-top: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#kontakt {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+#ul_o_firme li a {
+    color: black;
+}
+
+.loga {
+    width: 70%;
+}
+
+#partneri {
+    margin: 0 auto;
+    text-align: center;
 }
 
 #logo-top {
@@ -211,6 +238,11 @@ body {
          #footer {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+        }
+
+        .loga {
+            height: 10vh;
+            width: auto;
         }
 }
 
