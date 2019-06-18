@@ -24,8 +24,7 @@ body {
         background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
         background-repeat: no-repeat;
-    min-height: 100vh;
-                
+        min-height: 86vh;
 }
 
 #footer {
@@ -51,11 +50,6 @@ body {
 .container {
     padding-top: 0.5rem;
     width: 90%;
-    margin: 0 auto;
-}
-
-#kontakt {
-    width: 10%;
     margin: 0 auto;
 }
 
@@ -244,6 +238,11 @@ h1 {
             height: 10vh;
             width: auto;
         }
+
+        #kontakt {
+            width: 25%;
+            margin: 0 auto;
+        }
 }
 
 
@@ -292,8 +291,10 @@ h1 {
 
 }
 
-@media (min-width: 1450px) {
-    
-
+@media (min-width: 1450px) {   
+    #kontakt {
+        width: 10%;
+        margin: 0 auto;
+    }
    
 }
