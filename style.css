@@ -77,7 +77,7 @@ p {
 }
 
 #logo {
-    width:100%;
+    width:90%;
     height: auto;
 }
 
@@ -90,14 +90,23 @@ p {
 }
 
 .nav-item {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
 }
 
+.nav-item li {
+    padding: 10px;
+}
+
+
 #zoznam {
+    margin-top: 0;
     padding-left: 0;
     font-size: 1.5rem;
-    margin-top: 10px;
+}
+
+#zoznam ul {
+    margin-top: 0;
 }
 
 .nav-item li {
