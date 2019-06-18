@@ -42,6 +42,7 @@ body {
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
     text-align: center;
     display: none;
+    margin-bottom: 0;
 }
 
 #index-ul {
