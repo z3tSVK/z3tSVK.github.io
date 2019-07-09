@@ -147,6 +147,30 @@ h1 {
     color: #a1dbff;
  }
 
+ .kamera-img {
+    height: auto;
+    width: 100%;
+}
+
+.kamery-img,
+#zaznamnik-img {
+    text-align: center;
+    position: relative;
+    max-width: 450px;
+    margin: 30px auto 0 auto;
+}
+
+.overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(120, 161, 168, 0.8);
+    color: #f1f1f1; 
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    letter-spacing: 2px;
+}
 @media (min-width: 768px) {
 
         body {
@@ -244,6 +268,15 @@ h1 {
             width: 25%;
             margin: 0 auto;
         }
+
+        #kamery-img {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .kamery-img {
+            margin: 10px;
+        }
 }
 
 
@@ -289,7 +322,13 @@ h1 {
     margin-right: 20px;
     height: 400px;
 }
-
+.kamery-img,
+#zaznamnik-img {
+    text-align: center;
+    position: relative;
+    max-width: 450px;
+    margin: 0px 10px 0px 0;
+}
 }
 
 @media (min-width: 1450px) {   
