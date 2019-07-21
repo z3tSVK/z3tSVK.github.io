@@ -7,6 +7,7 @@ body {
     font-family: Montserrat;
     margin: 0 0;
     font-size:1rem;
+    line-height: 1.5em;
 }
 
 #header {
@@ -171,8 +172,20 @@ h1 {
     margin: 0;
     letter-spacing: 2px;
 }
+
+#kontakt {
+    line-height: 1em;
+}
+
+#kontaktovanie {
+    text-align: center;
+}
+
 @media (min-width: 768px) {
 
+    .container {
+        padding-top: 1rem;
+    }
         body {
             font-size: 1.2rem;
         }
@@ -237,8 +250,13 @@ h1 {
         #zoznam {
             margin-right: 0px;
         }
+        #zoznam a {
+            transition: 0.5s;
+        }
+    
         #zoznam a:hover {
             transform: scale(1.1);
+            transition: 0.5s;
         }
 
         .topnav ul a {

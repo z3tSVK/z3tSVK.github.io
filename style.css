@@ -126,7 +126,7 @@ p {
 #obsah {
     display: none;
 }
-@media (orientation: landscape) {
+@media (orientation: landscape ) {
 
     body {
         font-size: 0.8rem;
@@ -167,6 +167,14 @@ p {
     }
 }
 
+@media (orientation: landscape )
+and (max-width: 768px) {
+    #nav {
+        align-self: flex-start;
+    }
+
+}
+
 @media (min-width: 768px) {
     #logo {
         width: 100%;
@@ -191,6 +199,7 @@ p {
         position: relative;
         margin-top: 15px;
         flex-shrink: 0;
+        transition: 1s;
     }
     
     .img {
@@ -257,8 +266,13 @@ p {
         text-align: center;
     }
 
+    #zoznam a {
+        transition: 0.5s;
+    }
+
     #zoznam a:hover {
         transform: scale(1.1);
+        transition: 0.5s;
     }
 
     #footer,
@@ -306,13 +320,9 @@ p {
     }
 
    .overlay {
-       opacity: 0;
        font-size: 1.2rem;
    }
 
-   .box:hover .overlay {
-       opacity: 1;
-   }
 
    .box:hover {
        -webkit-box-shadow: 10px 10px 5px 2px rgba(138,126,138,0.53);
@@ -376,6 +386,6 @@ p {
         font-size: 1.1rem;
     }
    .overlay {
-       font-size: 2em;
+       font-size: 1.6em;
    }
 }
